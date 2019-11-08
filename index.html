@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alters-Check</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form>
+        <label for="age"><h1>Check Dein Alter auf Volljährigkeit</h1></label>
+        <input id="input" type="number" min="1" max="99"><br>
+        <input onclick="adult(document.getElementById('input').value)" type="button" value="Check Me">
+    </form>
+
+    <h1 id="ergebnis"></h1>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
